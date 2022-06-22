@@ -33,7 +33,7 @@ void main() {
 
     expect(result.length, 2);
     expect(result['Khaled'], 2);
-    expect(result['Omar'], 2);
+    expect(result['Omar'], 1);
   });
   test('3 items, 2 dupes start', () {
     var result = mapNames(["Khaled", "Khaled", "Omar"]);

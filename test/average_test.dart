@@ -9,10 +9,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:lab_2/dart/parameters.dart';
 
 void main() {
-  test('empty list', () {
-    var result = average([]).toInt();
-    expect(result, 0);
-  });
   test('one numbers', () {
     var result = average([5]).toInt();
     expect(result, 5);
@@ -23,6 +19,6 @@ void main() {
   });
   test('three numbers', () {
     var result = average([7, 2, 3]).toInt();
-    expect(result, 6);
+    expect(result, 4);
   });
 }
