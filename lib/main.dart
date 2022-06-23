@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:lab_2/widgets/duck_card_list.dart';
-
-import 'models/models.dart';
 
 void main() {
   runApp(MyApp());
