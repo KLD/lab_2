@@ -1,6 +1,8 @@
+import 'package:lab_2/dart/constructor.dart';
+
 /// returns the string 'Hello World'
 String helloWorld() {
-  throw UnimplementedError();
+  return "Hello World";
 }
 
 /// Return the sum of a & b
@@ -34,14 +36,30 @@ double average(List<int> numbers) {
 ///
 /// etc: countLetters("Hello World", 'l') => 3
 int countLetters(String name, String letter) {
-  throw UnimplementedError();
+  int count = 0;
+  for (int i = 0; i < name.length; i++) {
+    if (letter == name[i]) {
+      count++;
+    }
+  }
+  return count;
+  //throw UnimplementedError();
 }
 
 /// Counts occurrence of name in given names
 ///
 /// etc: `countLetters(["Khaled", "Ahmad", "Khaled"], "Khaled") => 2`
 int countNames(List<String> names, String name) {
-  throw UnimplementedError();
+  int count = 0;
+
+  // loop through names
+  for (int i = 0; i < names.length; i++) {
+    //  if current name == target name
+    if (names[i] == name) {
+      count++;
+    }
+  }
+  return count;
 }
 
 /// Returns a list of unique names
@@ -53,7 +71,9 @@ List<String> uniqueNames(List<String> names) {
 
 /// Returns a map of unique names and their count
 ///
-/// etc: `["Khaled", "Ahmad", "Khaled"] => {"Khaled": 2, "Ahmad": "1"}`
+/// etc: `["Khaled", "Ahmad", "Khaled"] => {"Khaled": 2, "Ahmad": 1}`
 Map<String, int> mapNames(List<String> names) {
   throw UnimplementedError();
 }
+
+void x() {}
