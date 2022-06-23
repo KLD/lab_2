@@ -6,7 +6,7 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lab_2/dart/parameters.dart';
+import 'package:lab_2/dart/functions.dart';
 
 void main() {
   test('22 & is not raining', () {

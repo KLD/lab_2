@@ -5,11 +5,8 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lab_2/dart/parameters.dart';
-
-import 'package:lab_2/main.dart';
+import 'package:lab_2/dart/functions.dart';
 
 void main() {
   test('two positive numbers', () {
